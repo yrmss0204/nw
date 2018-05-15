@@ -84,7 +84,7 @@ def logout():
 
 
 
-@app.route("/")                                         #"/"은 index라고 읽음
+@app.route("/")                                         #"/"은 index라고 읽음.
 def hello():
     if 'id' in session :                                #이곳에 들어오면 로그인 페이지로 들어갈수 있음.
         return u'Logged is as 로그인됨 %s <a href="/logout">logout</a>' % escape(session['id'])       
