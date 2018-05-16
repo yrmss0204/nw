@@ -26,4 +26,4 @@ if __name__ ==' __main__':                         #파이썬 자체가 컴파�
     p2 = multiprocessing.Process(target=yes, args=(2,))
     p1.start()
     p2.start()
-                                                   #동기작업을 해야한다.
+                 #                                  #동기작업을 해야한다.
